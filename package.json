@@ -1,0 +1,50 @@
+{
+  "name": "karma-browserify-babelify-jasmine-angular-isparta-example",
+  "version": "0.1.0",
+  "description": "An example of creating the coverage report of an angular 1.x frontend ES2015 module.",
+  "main": "src/sum.js",
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "test:browsers": "karma start karma.conf.js --browsers Chrome",
+    "ci": "karma start karma.conf.js --browsers PhantomJS",
+    "showcov": "cat coverage/*/text-summary.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbarilani/karma-browserify-babelify-jasmine-angular-isparta-example.git"
+  },
+  "keywords": [
+    "example",
+    "isparta",
+    "browserify",
+    "karma"
+  ],
+  "authors": [
+    "Ruben Barilani",
+    "Yoshiya Hinosawa <stibium121@gmail.com> (https://twitter.com/kt3k)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rbarilani/karma-browserify-babelify-jasmine-angular-isparta-example/issues"
+  },
+  "homepage": "https://github.com/rbarilani/karma-browserify-babelify-jasmine-angular-isparta-example#readme",
+  "devDependencies": {
+    "angular-mocks": "^1.5.5",
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify-istanbul": "^0.2.1",
+    "isparta": "^4.0.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.19",
+    "karma-browserify": "^4.4.2",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-coverage": "^0.5.3",
+    "karma-jasmine": "^0.3.8",
+    "karma-phantomjs-launcher": "^0.2.3",
+    "phantomjs": "^1.9.19",
+    "phantomjs-polyfill": "0.0.2"
+  },
+  "dependencies": {
+    "angular": "^1.5.5"
+  }
+}
